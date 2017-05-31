@@ -2,7 +2,7 @@
 This is a sample TypeScript project.
 
 
-#Setup
+# Setup
 
 Install node and npm.
 
