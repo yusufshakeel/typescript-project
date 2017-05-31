@@ -1,0 +1,22 @@
+{
+  "name": "typescript-project",
+  "version": "1.0.0",
+  "description": "This is a sample typescript project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yusufshakeel/typescript-project.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Yusuf Shakeel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yusufshakeel/typescript-project/issues"
+  },
+  "homepage": "https://github.com/yusufshakeel/typescript-project#readme"
+}
