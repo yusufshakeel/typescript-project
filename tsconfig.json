@@ -3,13 +3,17 @@
         "module": "commonjs",
         "target": "es5",
         "noImplicitAny": false,
-        "sourceMap": false
+        "sourceMap": false,
         
         //noEmitOnError - use this if you don't want js file from ts file if error occurs
         //"noEmitOnError": true
         
         //strictNullCheck - use this to set null
         //"strictNullCheck": true
+        
+        //to work with experimental decorators
+        "experimentalDecorators": true
+        
     },
     "exclude": [
     	"node_modules"
