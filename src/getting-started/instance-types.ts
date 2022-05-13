@@ -1,5 +1,8 @@
 const listOfNumbers: Array<number> = [1, 2, 3];
 const listOfStrings: Array<string> = ['hello', 'world'];
+const listOfNumbers2: number[] = [1, 2, 3, 4];
+
+const pointCoordinateTuple: [number, number] = [0, 0];
 
 const setOfNumbers: Set<number> = new Set([1, 1, 2, 1, 3]);
 const setOfStrings: Set<string> = new Set(['hello', 'hello', 'world']);

@@ -6,25 +6,27 @@ This is a sample TypeScript project.
 
 Install node and npm.
 
+Check version
+
+```shell
+node --version
+npm --version
+```
+
 Install typescript globally via npm.
-`npm install -g typescript`
 
-Install lite-server to serve files.
-`npm install lite-server --save-dev`
+```shell
+npm install -g typescript
+```
 
-Add start to package.json
-`"scripts": {
-    "start": "lite-server"
-  }`
+Now clone this project.
 
-Put the project folder under typescript watch.
-`tsc --init`
+```shell
+git clone https://github.com/yusufshakeel/typescript-project.git
+```
 
-To start lite-server (open a new terminal)
-`npm start`
+Install packages.
 
-To stop lite-server
-`Ctrl+C`
-
-To compile typescript files type the following command (in new terminal).
-`tsc`
+```shell
+npm i
+```

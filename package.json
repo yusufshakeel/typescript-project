@@ -2,11 +2,13 @@
   "name": "typescript-project",
   "version": "1.0.0",
   "description": "This is a sample typescript project.",
-  "main": "src/index.js",
+  "main": "dist",
+  "types": "dist",
   "scripts": {
-    "bootstrap": "mkdir src dist",
-    "init:ts": "npm run bootstrap && npx tsc --init --rootdir src --outdir dist",
+    "bootstrap": "mkdir -p src dist",
+    "init:ts": "npm run bootstrap && npx tsc --init --rootdir src --outdir dist --sourceMap --declaration --declarationMap",
     "watch": "npx tsc --watch",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,7 +24,7 @@
     "url": "https://github.com/yusufshakeel/typescript-project/issues"
   },
   "homepage": "https://github.com/yusufshakeel/typescript-project#readme",
-  "dependencies": {
+  "devDependencies": {
     "typescript": "^4.6.4"
   }
 }
